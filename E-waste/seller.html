@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Waste Management</title>
+  <link href="updated.css" rel="stylesheet" media="all">
+  <link rel="icon" href="images/logo.png" type="image/png">
+<style>
+div.gallery {
+
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-left: 250px;
+  margin-top: 100px;
+  transition: width 2s, height 4s;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a class="active1" href="#"><i class="fa fa-fw fa-home"></i> E-Waste Management</a>
+    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="images/mob.png" alt="Mobile" width="600" height="400">
+    </a>
+    <div class="desc">Click to sell your old mobile</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/lap.png">
+      <img src="images/lap.png" alt="Laptop" width="600" height="400">
+    </a>
+    <div class="desc">Click to sell your old Laptop</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+</body>
+</html>

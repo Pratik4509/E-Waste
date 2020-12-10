@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add New</title>
+<link rel="icon" href="images/logo.png" type="image/png">
+<style>
+body {
+  background-image: url('e waste.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%;
+  opacity: 1.5;
+}
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+
+}
+.container {
+    padding: 50px;
+
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, {
+
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #060606;
+  margin-bottom: 25px;
+}
+.registerbtn {
+
+  background-color: #4CAF50;
+
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:10%;
+  margin-left: 1300px;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  background-color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  /* Current/active navbar link */
+  .active1 {
+    /*font-family: "Roboto", sans-serif;*/
+    background-color: #4CAF50;
+  }
+  .active {
+    /*font-family: "Roboto", sans-serif;*/
+    margin-left: 70%;
+    background-color: #4CAF50;
+  }
+
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a class="active1" href="#"><i class="fa fa-fw fa-home"></i> E-Waste Management</a>
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>
+
+<form>
+  <div class="container">
+  <center>  <h1> Add New Item</h1> </center>
+  <hr>
+  <label> Item Name </label>
+<input type="text" name="" size="15" required />
+<label>Email </label>
+<input type="text" name=""  size="15" required />
+
+<label> About Item </label>
+<input type="text" name=""  size="15"required />
+<label>Quantity</label>
+<input type="text" name="" size="15" required /><br>
+<label>Image</label>
+<input type="file" name="" value="">
+
+
+    <button type="submit" class="registerbtn">Submit</button>
+</form>
+</body>
+</html>
